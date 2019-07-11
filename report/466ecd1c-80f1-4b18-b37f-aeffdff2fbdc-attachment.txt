@@ -1,0 +1,6 @@
+base.py                     15 INFO     正在查找 ('css selector', '#username') 元素
+base.py                     15 INFO     正在查找 ('css selector', '#password') 元素
+base.py                     15 INFO     正在查找 ('css selector', '#verify_code') 元素
+base.py                     15 INFO     正在查找 ('css selector', '.J-login-submit') 元素
+base.py                     15 INFO     正在查找 ('css selector', '.layui-layer-content') 元素
+base.py                     15 INFO     正在查找 ('css selector', '.layui-layer-btn0') 元素

@@ -1,0 +1,143 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1562675873027" stop="1562675925328">
+  <name>test_login</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1562675873027" status="failed" stop="1562675917577">
+      <name>TestLogin.test_login[13800001111-123456-8888-138-true]</name>
+      <failure>
+        <message>AssertionError: assert '138' == '13800'
+  - 138
+  + 13800
+  ?    ++</message>
+        <stack-trace>self = &lt;test_login.TestLogin object at 0x03541E10&gt;, username = '13800001111'
+pwd = '123456', code = '8888', expect_result = '138', success = 'true'
+
+    @pytest.mark.parametrize("username,pwd,code,expect_result, success", get_data())
+    def test_login(self, username, pwd, code, expect_result,success):
+        # 调用业务登录方法
+        self.login.page_login(username, pwd, code)
+        # 判断 正向
+        if success == "true":
+            try:
+                # 断言 昵称
+&gt;               assert expect_result == self.login.page_get_nickname()
+E               AssertionError: assert '138' == '13800'
+E                 - 138
+E                 + 13800
+E                 ?    ++
+
+scripts\test_login.py:48: AssertionError</stack-trace>
+      </failure>
+      <attachments>
+        <attachment source="e1099db3-c89e-42ce-8e86-79ac44207d3e-attachment.txt" title="Captured log setup" type="text/plain"/>
+        <attachment source="e53355b0-6c21-4f11-bbc4-78dac9d5aabd-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="4304-MainThread"/>
+        <label name="host" value="MS-20180906QJYH"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1562675917577" status="passed" stop="1562675918091">
+      <name>TestLogin.test_login[-123456-8888-\u7528\u6237\u540d\u4e0d\u80fd\u4e3a\u7a7a!-false]</name>
+      <attachments>
+        <attachment source="72abae41-f40c-428d-a1d1-32a87c5d7b44-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="4304-MainThread"/>
+        <label name="host" value="MS-20180906QJYH"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1562675918122" status="passed" stop="1562675918538">
+      <name>TestLogin.test_login[13800001111--8888-\u5bc6\u7801\u4e0d\u80fd\u4e3a\u7a7a!-false]</name>
+      <attachments>
+        <attachment source="0770da96-f960-4be5-9ecd-b769c2d34a92-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="4304-MainThread"/>
+        <label name="host" value="MS-20180906QJYH"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1562675918541" status="passed" stop="1562675918988">
+      <name>TestLogin.test_login[13800001111-123456--\u9a8c\u8bc1\u7801\u4e0d\u80fd\u4e3a\u7a7a!-false]</name>
+      <attachments>
+        <attachment source="9978cb43-2b37-4380-8c1b-bf6dcdea98d2-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="4304-MainThread"/>
+        <label name="host" value="MS-20180906QJYH"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1562675918990" status="passed" stop="1562675921022">
+      <name>TestLogin.test_login[13800001112-123456-8888-\u8d26\u53f7\u4e0d\u5b58\u5728!-false]</name>
+      <attachments>
+        <attachment source="466ecd1c-80f1-4b18-b37f-aeffdff2fbdc-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="4304-MainThread"/>
+        <label name="host" value="MS-20180906QJYH"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1562675921024" status="passed" stop="1562675921482">
+      <name>TestLogin.test_login[138000011112-123456-8888-\u8d26\u53f7\u683c\u5f0f\u4e0d\u5339\u914d!-false]</name>
+      <attachments>
+        <attachment source="411a29d6-c7b6-4804-acc3-c20461f655c0-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="4304-MainThread"/>
+        <label name="host" value="MS-20180906QJYH"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1562675921489" status="passed" stop="1562675923503">
+      <name>TestLogin.test_login[13800001111-1234566-8888-\u5bc6\u7801\u9519\u8bef!-false]</name>
+      <attachments>
+        <attachment source="64b7a1f1-bd12-48a5-b999-c310d74d25d5-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="4304-MainThread"/>
+        <label name="host" value="MS-20180906QJYH"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1562675923505" status="passed" stop="1562675925328">
+      <name>TestLogin.test_login[13800001111-123456-88889-\u9a8c\u8bc1\u7801\u9519\u8bef-false]</name>
+      <attachments>
+        <attachment source="1997bfa1-5887-4ad4-8fbc-a41379fc7915-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="4304-MainThread"/>
+        <label name="host" value="MS-20180906QJYH"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

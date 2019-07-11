@@ -1,0 +1,2 @@
+base.py                     11 INFO     正在获取driver对象：<selenium.webdriver.chrome.webdriver.WebDriver (session="feec982e357b4b33be27d07f6bd55c17")>
+base.py                     15 INFO     正在查找 ('link text', '登录') 元素

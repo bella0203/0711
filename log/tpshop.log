@@ -1,0 +1,55 @@
+2019-07-09 20:38:01,856 INFO [root] [base.py (__init__:11] - 正在获取driver对象：<selenium.webdriver.chrome.webdriver.WebDriver (session="feec982e357b4b33be27d07f6bd55c17")>
+2019-07-09 20:38:01,856 INFO [root] [base.py (base_find:15] - 正在查找 ('link text', '登录') 元素
+2019-07-09 20:38:06,675 INFO [root] [base.py (base_find:15] - 正在查找 ('css selector', '#username') 元素
+2019-07-09 20:38:06,796 INFO [root] [base.py (base_find:15] - 正在查找 ('css selector', '#password') 元素
+2019-07-09 20:38:06,897 INFO [root] [base.py (base_find:15] - 正在查找 ('css selector', '#verify_code') 元素
+2019-07-09 20:38:06,990 INFO [root] [base.py (base_find:15] - 正在查找 ('css selector', '.J-login-submit') 元素
+2019-07-09 20:38:07,066 INFO [root] [base.py (base_find:15] - 正在查找 ('css selector', '.userinfo') 元素
+2019-07-09 20:38:11,344 ERROR [root] [test_login.py (test_login:52] - assert '138' == '13800'
+  - 138
+  + 13800
+  ?    ++
+2019-07-09 20:38:11,344 INFO [root] [base.py (base_find:15] - 正在查找 ('link text', '安全退出') 元素
+2019-07-09 20:38:16,858 INFO [root] [base.py (base_find:15] - 正在查找 ('link text', '登录') 元素
+2019-07-09 20:38:37,577 INFO [root] [base.py (base_find:15] - 正在查找 ('css selector', '#username') 元素
+2019-07-09 20:38:37,655 INFO [root] [base.py (base_find:15] - 正在查找 ('css selector', '#password') 元素
+2019-07-09 20:38:37,778 INFO [root] [base.py (base_find:15] - 正在查找 ('css selector', '#verify_code') 元素
+2019-07-09 20:38:37,887 INFO [root] [base.py (base_find:15] - 正在查找 ('css selector', '.J-login-submit') 元素
+2019-07-09 20:38:37,971 INFO [root] [base.py (base_find:15] - 正在查找 ('css selector', '.layui-layer-content') 元素
+2019-07-09 20:38:38,014 INFO [root] [base.py (base_find:15] - 正在查找 ('css selector', '.layui-layer-btn0') 元素
+2019-07-09 20:38:38,123 INFO [root] [base.py (base_find:15] - 正在查找 ('css selector', '#username') 元素
+2019-07-09 20:38:38,228 INFO [root] [base.py (base_find:15] - 正在查找 ('css selector', '#password') 元素
+2019-07-09 20:38:38,294 INFO [root] [base.py (base_find:15] - 正在查找 ('css selector', '#verify_code') 元素
+2019-07-09 20:38:38,374 INFO [root] [base.py (base_find:15] - 正在查找 ('css selector', '.J-login-submit') 元素
+2019-07-09 20:38:38,441 INFO [root] [base.py (base_find:15] - 正在查找 ('css selector', '.layui-layer-content') 元素
+2019-07-09 20:38:38,472 INFO [root] [base.py (base_find:15] - 正在查找 ('css selector', '.layui-layer-btn0') 元素
+2019-07-09 20:38:38,543 INFO [root] [base.py (base_find:15] - 正在查找 ('css selector', '#username') 元素
+2019-07-09 20:38:38,655 INFO [root] [base.py (base_find:15] - 正在查找 ('css selector', '#password') 元素
+2019-07-09 20:38:38,723 INFO [root] [base.py (base_find:15] - 正在查找 ('css selector', '#verify_code') 元素
+2019-07-09 20:38:38,807 INFO [root] [base.py (base_find:15] - 正在查找 ('css selector', '.J-login-submit') 元素
+2019-07-09 20:38:38,874 INFO [root] [base.py (base_find:15] - 正在查找 ('css selector', '.layui-layer-content') 元素
+2019-07-09 20:38:38,913 INFO [root] [base.py (base_find:15] - 正在查找 ('css selector', '.layui-layer-btn0') 元素
+2019-07-09 20:38:38,992 INFO [root] [base.py (base_find:15] - 正在查找 ('css selector', '#username') 元素
+2019-07-09 20:38:39,107 INFO [root] [base.py (base_find:15] - 正在查找 ('css selector', '#password') 元素
+2019-07-09 20:38:39,188 INFO [root] [base.py (base_find:15] - 正在查找 ('css selector', '#verify_code') 元素
+2019-07-09 20:38:39,257 INFO [root] [base.py (base_find:15] - 正在查找 ('css selector', '.J-login-submit') 元素
+2019-07-09 20:38:39,321 INFO [root] [base.py (base_find:15] - 正在查找 ('css selector', '.layui-layer-content') 元素
+2019-07-09 20:38:40,911 INFO [root] [base.py (base_find:15] - 正在查找 ('css selector', '.layui-layer-btn0') 元素
+2019-07-09 20:38:41,025 INFO [root] [base.py (base_find:15] - 正在查找 ('css selector', '#username') 元素
+2019-07-09 20:38:41,155 INFO [root] [base.py (base_find:15] - 正在查找 ('css selector', '#password') 元素
+2019-07-09 20:38:41,245 INFO [root] [base.py (base_find:15] - 正在查找 ('css selector', '#verify_code') 元素
+2019-07-09 20:38:41,318 INFO [root] [base.py (base_find:15] - 正在查找 ('css selector', '.J-login-submit') 元素
+2019-07-09 20:38:41,373 INFO [root] [base.py (base_find:15] - 正在查找 ('css selector', '.layui-layer-content') 元素
+2019-07-09 20:38:41,404 INFO [root] [base.py (base_find:15] - 正在查找 ('css selector', '.layui-layer-btn0') 元素
+2019-07-09 20:38:41,492 INFO [root] [base.py (base_find:15] - 正在查找 ('css selector', '#username') 元素
+2019-07-09 20:38:41,628 INFO [root] [base.py (base_find:15] - 正在查找 ('css selector', '#password') 元素
+2019-07-09 20:38:41,713 INFO [root] [base.py (base_find:15] - 正在查找 ('css selector', '#verify_code') 元素
+2019-07-09 20:38:41,803 INFO [root] [base.py (base_find:15] - 正在查找 ('css selector', '.J-login-submit') 元素
+2019-07-09 20:38:41,849 INFO [root] [base.py (base_find:15] - 正在查找 ('css selector', '.layui-layer-content') 元素
+2019-07-09 20:38:43,445 INFO [root] [base.py (base_find:15] - 正在查找 ('css selector', '.layui-layer-btn0') 元素
+2019-07-09 20:38:43,506 INFO [root] [base.py (base_find:15] - 正在查找 ('css selector', '#username') 元素
+2019-07-09 20:38:43,619 INFO [root] [base.py (base_find:15] - 正在查找 ('css selector', '#password') 元素
+2019-07-09 20:38:43,715 INFO [root] [base.py (base_find:15] - 正在查找 ('css selector', '#verify_code') 元素
+2019-07-09 20:38:43,799 INFO [root] [base.py (base_find:15] - 正在查找 ('css selector', '.J-login-submit') 元素
+2019-07-09 20:38:44,185 INFO [root] [base.py (base_find:15] - 正在查找 ('css selector', '.layui-layer-content') 元素
+2019-07-09 20:38:45,263 INFO [root] [base.py (base_find:15] - 正在查找 ('css selector', '.layui-layer-btn0') 元素
